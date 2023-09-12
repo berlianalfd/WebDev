@@ -1,0 +1,251 @@
+.body{
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0.5em;
+    max-width: 100%;
+}
+
+
+.navbar ul li{
+    /* float: right; */
+    display: inline-block;
+    /* float: right; */
+}
+
+.navbar ul a{
+    float: right;
+    text-decoration: none;
+    color: grey;
+    padding-right: 20px;
+}
+
+.flex-lists{
+    display:flex;
+    align-items: center;
+    padding-left: 1400px;
+    text-align: center;
+}
+
+.flex-lists a{
+    max-width: 100%;
+    font-size:  25px;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image{
+    justify-content: center;
+    align-items: center; 
+    height: 20px; 
+}
+
+/* section1 */
+.bagian1{
+    height: auto;
+    background: #f5f5f5;
+    justify-content: center;
+}
+
+.baris-1  h1 {
+    align-items: center;
+    text-align: center;
+    font-family: austera-text;
+    font-size: 50px;
+    padding-bottom:10px;
+    font-weight: 500;
+    color:rgb(54, 53, 63);
+}
+
+
+.baris-2  p {
+    margin-top: auto;
+    align-items: center;
+    text-align: center;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(130, 130, 134);
+}
+.textColor{
+    color: rgb(233, 62, 62);
+}
+
+.boxemail input{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 50px;
+    text-align: left;
+    width: 70%;
+}
+
+.boxemail button{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    border-color: rgb(73, 216, 34) ;
+    background-color:rgb(73, 216, 34) ;
+    padding: 15px 15px;
+}
+
+.boxemail{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.splide{
+    display:flex;
+    list-style: none;
+    padding: 40px 20px;
+}
+
+.box{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+   
+}
+.description p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size:15px;
+    text-align: center;
+}
+
+.description h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size:20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.box{
+    columns: auto;
+}
+
+/* section2 */
+.bagian2{
+    text-align: center;
+    height: auto;
+    background: #ffffff;
+}
+
+.baris-2  a {
+    text-decoration: none;
+    font-size:25px;
+    color:rgb(218, 19, 19);
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size:25px;
+    flex: 1;
+}
+
+.instructor{
+    padding: 15px 15px;
+}
+.description{
+    text-align: left;
+}
+
+.box_lower {
+    background-color: rgb(233, 236, 239);
+    margin: 100px 280px 50px;
+    justify-content: center;
+    position: center;
+    border-radius: 3px;
+    height: 250px;
+    width: 700px;
+  }
+
+.title_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 35px 14% 0px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #091836;
+  }
+  
+  .title_box > .title_text {
+    color: #de3f1c;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .title_text_seccond {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #778298;
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 35px;
+  }
+
+/* footer */
+footer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 14%;
+    background-color: white;
+    height: auto;
+  }
+  
+  .footer {
+    height: auto;
+    list-style: none;
+    display: flex;
+    max-width: fit-content;
+    padding-left: 100px;
+  }
+  
+  .footer a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .footer li{
+    display: inline-block;
+    margin: "10px 50px"
+  }
+  
+  .footer li a {
+    transition: color 0.3s ease 0s;
+    color: #778298;
+    font-size: 15px;
+    padding-right: 20px;
+  }
+  
+  .footer li a:hover {
+    text-decoration: none;
+    padding-left: 100px;
+  }
+  
+  .credit {
+    font-size: 15px;
+    cursor: text;
+    color: #778298;
+  }
+
+  @media screen and (max-width: 768px) {
+    .bagian1 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .bagian2 {
+        flex-direction: column;
+        align-items: center;
+    }
+  }

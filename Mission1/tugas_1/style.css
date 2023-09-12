@@ -1,0 +1,142 @@
+.h{
+  font-size: 20px;
+}
+
+.BiruTua{
+  grid-area: BiruTua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0172be;
+  color: #000000;
+  font-size: 24px;
+  padding: 40px 0;
+  border: 1px solid black;
+}
+.Hitam{grid-area: Hitam;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background: #000000;
+  border: 1px solid black;
+}
+.Coklat{grid-area: Coklat;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+background: #563e0b;
+border: 1px solid black;
+}
+
+.Kuning{grid-area: Kuning;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: #f2ff00;
+border: 1px solid black;
+}
+
+.Merah{grid-area: Merah;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+background: #ff0000;
+border: 1px solid black;
+}
+
+.Hijau{grid-area: Hijau;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: #06ff1b;
+border: 1px solid black;
+}
+
+.Putih{grid-area: Putih;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: #ffffff;
+border: 1px solid black;
+}
+
+.Pink{grid-area: Pink;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: pink;
+border: 1px solid black;
+}
+
+.Biru{grid-area: Biru;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: rgb(85, 175, 240);
+border: 1px solid black;
+}
+
+.Ungu{grid-area: Ungu;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+background: rgb(196, 34, 211);
+border: 1px solid black;
+}
+
+.AbuAbu{grid-area: AbuAbu;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: rgb(173, 172, 173);
+border: 1px solid black;
+}
+
+.Orange{grid-area: Orange ;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+font-size: 24px;
+background: orange;
+border: 1px solid black;
+}
+
+.grid{
+  display: grid;
+  width: 900px;
+  height: 300px; 
+  margin: 130px auto;
+  border: 1.5px solid black;
+  grid-template-areas: 
+    'BiruTua BiruTua Hitam Hitam Hitam Hitam'
+    'BiruTua BiruTua Coklat Coklat Putih Pink'
+    'BiruTua BiruTua Coklat Coklat Putih Biru'
+    'Kuning Kuning Ungu Ungu Putih Biru'
+    'Merah Merah Ungu Ungu AbuAbu AbuAbu'
+    'Hijau Hijau Orange Orange AbuAbu AbuAbu';
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
